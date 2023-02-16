@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record default">6b08a29146c9a1103c4c2a349b99923d</macroponent>
+        <name>viewport_gph/initiallyCollapsed</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return api.context.props.userPrefs['workspace.showAgentAssist'] != 'true';
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2023-02-15 14:34:49</sys_created_on>
+        <sys_id>2708a291d5c9a110ac9f3e8e6fd02943</sys_id>
+        <sys_name>viewport_gph/initiallyCollapsed</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_831871_collect_0">05de71d99709a1104cadfb000153afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">05de71d99709a1104cadfb000153afc5</sys_scope>
+        <sys_update_name>sys_ux_client_script_2708a291d5c9a110ac9f3e8e6fd02943</sys_update_name>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <datasource display_value="">x_831871_collect_0_collection_item</datasource>
+        <name>Collection Item</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>aes.creator</sys_created_by>
+        <sys_created_on>2023-02-15 14:34:55</sys_created_on>
+        <sys_id>f818e29197c9a1104cadfb000153afde</sys_id>
+        <sys_name>Collection Item</sys_name>
+        <sys_package display_value="Collection Tracker" source="x_831871_collect_0">05de71d99709a1104cadfb000153afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Collection Tracker">05de71d99709a1104cadfb000153afc5</sys_scope>
+        <sys_update_name>ais_search_source_f818e29197c9a1104cadfb000153afde</sys_update_name>
+    </ais_search_source>
+</record_update>
